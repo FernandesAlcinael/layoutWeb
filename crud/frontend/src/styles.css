@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.msg-success {
+    background-color: #d1e5c4;
+    color: rgb(69, 131, 64)
+}
+
+.msg-error {
+    background-color: #f1c3c3;
+    color: #9d5e5e;
+}
+
+
+/*
+.red{
+    color: #e35e6b;
+} Diretiva para alterar a cor da classe para vermelho
+*/
