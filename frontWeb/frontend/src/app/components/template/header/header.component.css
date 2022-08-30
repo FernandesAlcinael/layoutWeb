@@ -1,0 +1,25 @@
+.header {
+    /*altera informações da seção header*/
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #d2a21e;
+    padding-top: 10px;
+}
+
+
+/*.logo {
+    altera informações da seção logo
+    max-height: 25px;
+    font-size: 0.1em;
+    padding-right: 200px;
+    margin-left: 40px;
+}*/
+
+.title-social {
+    /*altera informações da seção que comanda as rede sociais*/
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    margin-left: 1230px;
+}

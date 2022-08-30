@@ -3,6 +3,7 @@ import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-product-create',
   templateUrl: './product-create.component.html',
@@ -18,7 +19,7 @@ export class ProductCreateComponent implements OnInit {
   constructor(private productService: ProductService,
       private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
     
   }
 

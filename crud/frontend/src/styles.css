@@ -28,3 +28,5 @@ body {
     color: #e35e6b;
 } Diretiva para alterar a cor da classe para vermelho
 */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

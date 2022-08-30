@@ -1,0 +1,49 @@
+<button mat-icon-button class="menu-icon" *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+    <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon><!--Insere icone do menu-->
+    <mat-icon *ngIf="sidenav.opened"> close </mat-icon><!--Inserir icone de fechar-->
+  </button>
+<mat-sidenav-container>
+    <!--Cria um container para dispor dos itens do menu-->
+    <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+        <img class="avatar mat-elevation-z8" src="assets/logo.png" />
+
+        <h4 class="name">Alcinael Fernandes</h4>
+        <p class="designation">Frontend Developer</p>
+
+        <mat-divider></mat-divider>
+
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/" (click)="sidenav.toggle()">
+                <i class="material-icons">
+                home
+            </i> Início
+            </a>
+
+            <a mat-list-item routerLink="/project" (click)="sidenav.toggle()">
+                <i class="material-icons">
+                business_center
+          </i> Projetos
+
+            </a>
+
+            <a mat-list-item routerLink="/description" (click)="sidenav.toggle()">
+                <i class="material-icons">
+              description
+        </i> Quem somos?
+
+            </a>
+            <mat-divider></mat-divider>
+
+            <a mat-list-item routerLink="/contact" (click)="sidenav.toggle()">
+                <i class="material-icons">
+              question_answer
+        </i> Fale conosco
+
+            </a>
+        </mat-nav-list>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

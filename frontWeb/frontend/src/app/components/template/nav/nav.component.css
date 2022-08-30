@@ -1,0 +1,85 @@
+.menu-icon {
+    position: fixed;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    transition: all .4s;
+    left: 0px;
+    top: 19px;
+}
+
+mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #c0951e;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+
+/*.content {
+    height: calc(100vh - 130px);
+    border-radius: 10px;
+    margin: 16px;
+    margin-left: 32px;
+    padding: 16px;
+    overflow: auto;
+}
+*/
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+.menu-icon {
+    margin-bottom: 200fr;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-top: -6px;
+    border: 0;
+}
+
+.avatar {
+    margin-top: 16px;
+    max-width: 15vw;
+    max-height: 15vh;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.name {
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation {
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: lightgrey;
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+i {
+    padding: 4px;
+}

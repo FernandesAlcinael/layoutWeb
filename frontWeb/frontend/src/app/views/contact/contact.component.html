@@ -1,0 +1,34 @@
+<div class="container">
+
+    <h1>Fale conosco</h1>
+    <mat-divider></mat-divider>
+    <header class="fixo">
+        <label>Telefone: <b>(xx) 0000-0000</b> </label>
+        <label>Whattsapp: <b>(xx) 0 0000-0000</b> </label>
+        <label>E-mail: <b>modelo@modelo.com</b> </label>
+    </header>
+
+    <form>
+        <!--Forma insere dados no Json-server -->
+        <div class="entrada">
+            <label>Nome:</label>
+            <input placeholder="Nome" name="name" maxlength="50" [(ngModel)]="client.name">
+
+            <label class="email">E-mail:</label>
+            <input type="email" placeholder="email@email.com" name="email" maxlength="30" [(ngModel)]="client.email">
+
+        </div>
+        <label class="texto" for="area ">Envie sua dúvida orcamentária:</label>
+
+        <textarea class="area " name="tex" placeholder="Escreva sua mensagem" maxlength="500" [(ngModel)]="client.text"></textarea>
+
+
+        <button class="send" (click)="createForm()"> Enviar </button>
+
+        <!--<button mat-raised-button class="cancel">
+        Cancelar
+    </button> Tag para por um botão cancelar-->
+    </form>
+
+
+</div>

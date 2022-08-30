@@ -1,0 +1,21 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 500px;
+    height: 900px;
+    margin-left: 400px;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.missao {
+    padding-top: 20px;
+}

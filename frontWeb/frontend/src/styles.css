@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+/*.msg-success {
+    background-color: #282927;
+    color: rgb(45, 124, 41)
+}
+
+.msg-error {
+    background-color: #e7b0b0;
+    color: #8f4848;
+} Ambas classes são utilizadas para estilizar as mensagens de sucesso e erro*/
