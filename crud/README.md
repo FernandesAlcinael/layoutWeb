@@ -1,4 +1,9 @@
-# Projeto para cadastro de um sistema lojista ( CLS )
+# Projeto para cadastro de um sistema lojista ( CLS ) :clipboard:
 
-### Durante o curso de angular 9, ministrado pela plataforma COD3R, foi desenvolvido um sistema para
-cadastro.Eventualmente foram realizados algumas melhorias de usabilidade e programação. :computer:
+### Sistema para cadastro de produto em conjunto com o recurso do Json-server. Para criação, foram utilizados os seguintes reursos: 
+
+* AngularJS
+* TypeScript
+* JavaScript
+* CSS
+* HTML5
